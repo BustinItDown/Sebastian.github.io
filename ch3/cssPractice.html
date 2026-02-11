@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Sebastian">
+    <title>CSS Practice</title>
+    <style>
+        /* Selecting all headers used which are only h1 and h2*/
+        h1, h2{
+            text-align: center;
+        }
+
+        /* Class selector rules */
+        .bold {
+            font-weight: bold;
+        }
+
+        /* Missing utility classes used in the markup */
+        .italic {
+            font-style: italic;
+        }
+
+        .large-type {
+            font-size: 1.25rem;
+        }
+
+        blockquote footer {
+            text-align: right;
+            margin-top: 0.5em;
+            font-weight: bold;
+        }
+
+        /* Type selector rule for all p elements */
+        p {
+            padding: 5px;
+            margin-left: 50px;
+            margin-right: 50px;
+            border: 10px dashed red;
+            font-family: "Times New Roman", serif;
+            text-align: justify;
+            text-indent: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Practice</h1>
+    <h2>Programming Quotes</h2>
+
+    <blockquote>
+        <p>"The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a <span class="bold">criminal offense</span>."</p>
+        <footer>— Edsger Dijkstra</footer>
+    </blockquote>
+
+    <blockquote>
+        <p>"Man is the best computer we can put aboard a spacecraft and the only one that can be <span class="italic">mass produced</span> with unskilled labor."</p>
+        <footer>— Wernher von Braun</footer>
+    </blockquote>
+
+    <blockquote class="large-type">
+        <p>"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows away your whole leg."</p>
+        <footer>— Bjarne Stroustrup</footer>
+    </blockquote>
+
+</body>
+</html>
